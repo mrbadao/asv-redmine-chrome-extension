@@ -1,0 +1,21 @@
+{
+	"name": "Asv Redmine",
+	"description": "Asv Redmine",
+	"version": "0.1",
+	"app": {
+		"background": {
+			"scripts": [
+				"extension/js/background.js"
+			]
+		}
+	},
+	"manifest_version": 2,
+	"icons": {
+		"16": "extension/img/app_icon_16.png",
+		"128": "extension/img/app_icon_128.png"
+	},
+	"permissions": [
+		"webview",
+		"notifications"
+	]
+}
